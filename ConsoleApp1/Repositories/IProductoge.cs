@@ -12,5 +12,7 @@ namespace ConsoleApp1.Repositories
         public bool Delete();
 
         public List<IEnumerable> getAll();
+
+        public List<IEnumerable> getObjId();
     }
 }
