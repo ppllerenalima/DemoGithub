@@ -7,5 +7,7 @@ namespace ConsoleApp1.Repositories
     public interface IProductoge
     {
         public bool Update();
+
+        public bool Delete();
     }
 }
