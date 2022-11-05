@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,5 +10,7 @@ namespace ConsoleApp1.Repositories
         public bool Update();
 
         public bool Delete();
+
+        public List<IEnumerable> getAll();
     }
 }
